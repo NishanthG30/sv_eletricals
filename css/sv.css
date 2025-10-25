@@ -320,10 +320,7 @@ body {
 
 /* Why Choose Us */
 .why-choose {
-  background: linear-gradient(
-      rgba(57, 57, 57, 0.288),
-      rgba(105, 105, 105, 0.374)
-    ),
+  background: linear-gradient(rgba(82, 82, 82, 0.288), rgba(25, 25, 25, 0.374)),
     url("/images/sv.img3.jpg");
   background-size: cover;
   background-position: center;
@@ -341,9 +338,18 @@ body {
 
 .section-title h1,
 h3 {
-  color: rgb(1, 1, 95);
+  color: #ffffff;
 }
-
+.section-title p {
+  color: #8c9aa5bc;
+  font-size: x-large;
+  font-weight: 600;
+}
+h5 {
+  color: #023353a1;
+  font-size: x-large;
+  font-weight: 600;
+}
 .section-title i {
   font-family: sans-serif;
   color: #f1f0f1;
